@@ -5,14 +5,10 @@
   box-sizing: border-box;
 }
 .logo{
-  width: 9rem;
-  height: 9.5rem;
+  width: 5rem;
+  height: 5.5rem;
   position: absolute;
-  right: 5%;
-  top: 15%;
-}
-.bd-l{
-  border-color: #D16F01;
+  right: 6%;
 }
 .bg-nav{
   background-color: #F7E4A2;
@@ -39,9 +35,10 @@
 }
 
 .texto-imagem{
-  position: absolute;
-  top: 30%;
+  position:absolute;
+  top: 15%;
   left: 55%;
+  right: 5%;
   text-align: center;
   padding: 10px;
 }
@@ -56,6 +53,7 @@
 font-family: 'Black And White Picture';
 font-style: normal;
 font-weight: 400;
+color: #D16F01;
 
 }
 .black-and white picture-regular {
