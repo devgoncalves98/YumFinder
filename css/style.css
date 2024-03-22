@@ -1,11 +1,18 @@
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 .logo{
-  width: 5rem;
-  height: 5.5rem;
+  width: 9rem;
+  height: 9.5rem;
+  position: absolute;
+  right: 5%;
+  top: 15%;
+}
+.bd-l{
+  border-color: #D16F01;
 }
 .bg-nav{
   background-color: #F7E4A2;
@@ -16,9 +23,43 @@
   justify-content: center;
   border: 0;
 }
+.conteiner{
+  width: auto;
+  margin: auto;
+}
+.conteiner2{
+  width: auto;
+  padding-top: 10%;
+  padding-right: 20%;
+}
+.quadradocinza{
+  padding-right: 20%;
+  background-color: lightgray;  
+  border-radius: 1rem;
+}
+
+.texto-imagem{
+  position: absolute;
+  top: 30%;
+  left: 55%;
+  text-align: center;
+  padding: 10px;
+}
 .toggle:hover{
   border: 0;
 }
 .toggle:focus{
   box-shadow: none;
+}
+/* Yum Finder */
+.nomedaMarca{
+font-family: 'Black And White Picture';
+font-style: normal;
+font-weight: 400;
+
+}
+.black-and white picture-regular {
+  font-family: "Black And White Picture", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
